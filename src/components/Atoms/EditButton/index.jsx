@@ -6,7 +6,7 @@ import COLOR from "../../../variables/color";
 export const EditButton = () => {
   return (
     <SampleButton>
-      <PencilIcon src={pencil} alt="Edit" />
+      <PencilIcon src={pencil} alt="Edit Icon" />
     </SampleButton>
   );
 };
@@ -16,7 +16,6 @@ const SampleButton = styled.button`
   border: none;
   outline: none;
   cursor: pointer;
-  position: relative;
   padding: 0%;
   width: 20px;
   height: 20px;
