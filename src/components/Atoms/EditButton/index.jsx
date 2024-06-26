@@ -3,9 +3,9 @@ import pencil from "../../../assets/svg/pencil.svg";
 import styled from "styled-components";
 import COLOR from "../../../variables/color";
 
-export const EditButton = () => {
+export const EditButton = ({ onClick }) => {
   return (
-    <SampleButton>
+    <SampleButton onClick={onClick}>
       <PencilIcon src={pencil} alt="Edit Icon" />
     </SampleButton>
   );
