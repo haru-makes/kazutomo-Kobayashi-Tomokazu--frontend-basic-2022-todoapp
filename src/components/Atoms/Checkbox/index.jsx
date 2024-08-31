@@ -18,9 +18,6 @@ const StyledCheckbox = styled.button`
   outline: none;
   width: 20px;
   height: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 0px;
 
   &:hover img {
